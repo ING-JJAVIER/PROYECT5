@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main{
+    background-color: #f3eae3;
+}
+.carta{
+    
+    width: 90%;
+    border-radius: 1rem;
+    
+}
+
+article{
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.img1{
+    width: 100%;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.img2{
+    display: none;
+}
+
+h6{
+    color:#73737b;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+p{
+    color:#73737b;
+}
+
+.offer{
+    color:#418a6f;
+    font-size: 2rem;
+}
+
+.btnCart{
+    width: 90%;
+    height: 2rem;
+}
+
+.cart{
+    border-radius: .5rem;
+    width: 77vw;
+    height: 3rem;
+}
+
+.pay2{
+    color:#73737b;
+    font-size: .8rem
+    ;
+}
+
+.cartIcon{
+    width: 1.3rem;
+}
+
+@media(min-width:750px){
+    .carta{
+        width: 60%;
+        height: 50%;
+        border-radius: 1rem;
+        display: flex;
+    }
+    .img1{
+       display: none;
+    }
+
+    .img1Container{
+        height: 100%;
+    }
+    
+    .img2{
+        display: flex;
+       width: 100%;
+       height: 100%;
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
+    
+    article{
+        width: 50%;
+        height: 100%;
+    }
+
+    h2{
+       width: 100%;
+    }
+
+    .btnCart{
+        width: 100%;
+        height: 2rem;
+        &:hover{
+            background-color: #082f1d;
+            border-radius: 1rem;
+        }
+    }
+
+    .cart{
+        border-radius: .5rem;
+        width: 100%;
+        height: 3rem;
+        
+    }
+
+    main{
+       justify-content: space-between;
+    }
+}
+
